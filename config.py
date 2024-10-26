@@ -6,10 +6,10 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "27079591")) #optional
-API_HASH = getenv("API_HASH", "c81ae4c3dc026ea4bf49842a8ce4a5f9") #optional
+API_ID = int(getenv("API_ID", "21459497")) #optional
+API_HASH = getenv("API_HASH", "262fd3e2cd9647d24c9baed8db354995") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7403621976").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7711174096").split()))
 OWNER_ID = int(getenv("OWNER_ID"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
@@ -18,7 +18,7 @@ ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/TEAMPURVI/ALPHA_USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/Amanefujimaiya/ALPHA_USERBOT")
 BRANCH = getenv("BRANCH", "main") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
